@@ -11,4 +11,8 @@
 // YOUR CODE BELOW
 
 // Do not change the code below
+let myFirstName = 'Sarah';
+let myFavoriteNum = 5;
+let havingFun = true;
+
 module.exports = { myFirstName, myFavoriteNum, havingFun };

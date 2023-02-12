@@ -6,6 +6,9 @@
 // taxCalculator(100, 'NJ'); // => 106.625
 
 // YOUR CODE BELOW
-
+function taxCalculator(price, state) {
+    let tax = state === 'NY' ? 0.04 : 0.06625;
+    return price + price * tax;
+}
 // Do not change the code below
 module.exports = { taxCalculator };

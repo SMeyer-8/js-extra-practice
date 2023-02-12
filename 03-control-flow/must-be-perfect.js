@@ -11,9 +11,12 @@ let word = "carrots";
 // let word = 'perfecto';
 // let word = 'perfect';
 
-let lastWord;
-
 // YOUR CODE BELOW
+
+let lastWord = word;
+if(word.length === 7 && word.indexOf('p') === 0) {
+    lastWord = word.toUpperCase();
+} 
 
 // Do not the the code below
 module.exports = { word, lastWord };

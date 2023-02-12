@@ -9,7 +9,7 @@ let name = "David";
 // let name = 'Nimit';
 // let name = 'Someone else';
 
-let found;
+let found = (name === 'David' || 'Nimit');
 
 // YOUR CODE BELOW
 

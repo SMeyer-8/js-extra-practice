@@ -8,3 +8,4 @@ EX: 2000 + 18 - 2 * 1;
 */
 
 // YOUR CODE BELOW
+let date = 2000 + 25 - 2 * 1;

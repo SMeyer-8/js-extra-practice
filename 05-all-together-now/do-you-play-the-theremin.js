@@ -8,6 +8,8 @@
 // doYouPlayTheTheremin('Scott'); // => true
 
 // YOUR CODE BELOW
-
+function doYouPlayTheTheremin(str) {
+    return str.toUpperCase()[0] === 'S';
+}
 // Do not change the code below
 module.exports = { doYouPlayTheTheremin };

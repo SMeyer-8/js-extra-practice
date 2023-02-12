@@ -13,5 +13,17 @@ let boolean1 = true,
 
 let result;
 
+if(!boolean1 && !boolean2) {
+  result = 'none';
+}
+
+if(boolean1 || boolean2) {
+  result = 'one';
+}
+
+if(boolean1 && boolean2) {
+  result = 'both';
+}
+
 // YOUR CODE BELOW
 module.exports = { boolean1, boolean2, result };

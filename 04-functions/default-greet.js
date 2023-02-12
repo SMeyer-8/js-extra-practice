@@ -5,4 +5,7 @@
 // YOUR CODE BELOW
 
 // Do not change the code below
-module.exports = { defulatGreet };
+function defaultGreet(firstName, lastName) {
+    return `Hi ${firstName} ${lastName || 'Doe'}!`;
+}
+module.exports = { defaultGreet };
